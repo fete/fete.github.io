@@ -1,0 +1,19 @@
+body {
+  background-color:#FFFFFF;
+}
+
+#column1{
+
+    display:inline;
+
+}
+
+#column2{
+
+
+    display:inline;
+}
+
+li {
+  border:2px solid #000000;
+}
