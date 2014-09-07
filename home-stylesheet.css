@@ -53,6 +53,7 @@ body{
   font-family: 'Special Elite', cursive;
 }
 
+
 header{
   color:white;
   background:#6D6D70;
@@ -73,6 +74,7 @@ header{
   margin-left:2%;
   float:left;
   position:fixed;
+
 }
 
 #nav ul li{
@@ -82,7 +84,23 @@ header{
 
 }
 
+#nav ul li a:hover{
+  color:red;
+}
 
+#nav ul li a:link{
+color:black;
+
+}
+
+
+a:link{
+text-decoration: none;
+}
+
+article a:hover{
+  color:#FFFFFF;
+}
 
 #social{
   margin-left:5%;
