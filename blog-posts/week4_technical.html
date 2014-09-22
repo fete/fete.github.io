@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Special+Elite' rel='stylesheet' type='text/css'>
+      <link type="text/css" rel="stylesheet" href="../home-stylesheet.css"/>
+      <title> Clifton | Clifton's Blog</title>
+   </head>
+
+  <body>
+      <header>
+         <h1>Clifton's Blog</h1>
+      </header>
+
+      <nav id="social">
+         <ul>
+            <li><a href="hhttps://www.facebook.com/clifton.thomas.52"><img src="http://transform-network.net/fileadmin/templates/pics/icons/Icons-transform-facebook.png"/></a></li>
+            <li><a href="https://twitter.com/1fete"><img src="bird_blue_32.png"/></a></li>
+
+         </ul>
+      </nav>
+
+      <nav id="nav">
+         <ul>
+            <li><a href="https://fete.github.com/index.html">Home</a></li>
+            <li><a href="https://fete.github.com/about-me.html">About Me</a></li>
+            <li><a href="https://fete.github.com/projects.html">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact Me</a></li>
+
+         </ul>
+      </nav>
+
+
+
+      <section>
+          <article>
+              <h3>Groupies: The ".group_by" Method</h3>
+              <img src="http://www.valeofyorkccg.nhs.uk/data/uploads/images/foi-images/decision.jpg"/>
+              <p>By: Clifton ---> Published: 09/22/14<br>OThis week I did a lot of work on reading up on Enumerable methods (i.e. a module or just a bunch of methods packaged together). Whether it’s discovering new ones or just gaining insight on the ones I currently know it was all enlightening. One of the methods that has stuck with me is the “.group_by” method.
+This method returns a hash, which is a unique collection of keys and values. Here’s the hash syntax, hash_name = {key => value}. Thus the ".group_by" method groups the collection based on the result of the block. Where the keys are the evaluated result from the block and the values are the arrays of elements that correspond to the key.<br>
+Examples:<br>
+ (1..4).group_by { |num| num * 3 }   #=> {3 => [1], 6 => [2], 9 => [3], 12 => [4]}
+In the range of numbers from 1 to 4 we are calling the the goup_by method. The method iterates over the numbers and passes each to the block. The block then takes each number (num) and multiplies it by 3 and returns the value into the hash. Remember the results of the block is the hash’s keys and the elements of the range that give that product (when * 3) are the values.<br>
+
+Here’s another example where you can see the method used in a more applicable scenario:<br>
+(1..10).group_by {|x| x % 2 == 0}
+=> {false=>[1, 3, 5, 7, 9], true=>[2, 4, 6, 8, 10]} <br>
+Basically in the range from 1 to 10 we are grouping the numbers based on if they are even (divisible by 2) or odd.<br>
+There you go folks. Whether you can use this in one of your coding exercises or just use this post to facilitate some enlightenment, I encourage you to keep exploring the wide variety of methods out there waiting to be discovered by you. Until next time, happy coding all!</p>
+          </article>
+      </section>
+
+
+  </body>
+
+  <footer>
+      <p>Established September 11th, 2014</p>
+  </footer>
+</html>
