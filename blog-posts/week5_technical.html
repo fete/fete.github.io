@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Special+Elite' rel='stylesheet' type='text/css'>
+      <link type="text/css" rel="stylesheet" href="../home-stylesheet.css"/>
+      <title> Clifton | Clifton's Blog</title>
+   </head>
+
+  <body>
+      <header>
+         <h1>Clifton's Blog</h1>
+      </header>
+
+      <nav id="social">
+         <ul>
+            <li><a href="hhttps://www.facebook.com/clifton.thomas.52"><img src="http://transform-network.net/fileadmin/templates/pics/icons/Icons-transform-facebook.png"/></a></li>
+            <li><a href="https://twitter.com/1fete"><img src="bird_blue_32.png"/></a></li>
+
+         </ul>
+      </nav>
+
+      <nav id="nav">
+         <ul>
+            <li><a href="https://fete.github.com/index.html">Home</a></li>
+            <li><a href="https://fete.github.com/about-me.html">About Me</a></li>
+            <li><a href="https://fete.github.com/projects.html">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact Me</a></li>
+
+         </ul>
+      </nav>
+
+
+
+      <section>
+          <article>
+              <h3>Ruby's A Class Act: Class Basics</h3>
+              <img src="http://4.bp.blogspot.com/-LLDX2WemOUI/UiWpmyLZr9I/AAAAAAAAAyI/eCtT0Lgx_zA/s1600/Basic+Ruby.png"/>
+              <p>By: Clifton ---> Published: 09/28/14<br>An object oriented program like Ruby involves classes and objects. Classes are the backbone of object oriented programming and they define objects and say what objects are and what they can do. It's basically a blueprint from which instances are created. For instance, one can define a
+              Pets class with dogs, cats, fishes, etc as instances and you can then add characteristics (name, age) and behavior (sound, tricks) by defining variables, methods and more within the class. Below we have a TipCalculator class which calculates tips for your bill depending on the service you received.</p>
+              <img src="TipCalCode.png"/>
+              <p>
+              We first define the class using the 'class' keyword followed by the name (in CamelCase --> wiki this if it draws a blank) then you add your instance variables, methods etc in the 'body' then the class is ended by keyword 'end'.  For example:
+                class TipCalculator
+                  def some_method
+                  end
+                end
+              Now that we see how to initially define a class I can introduce you into how we can make an instance of the class. We do this using the syntax: “variable_name = ClassName.new”. In my code above we made the instance “dinner_bill = TipCalculator.new”. Why make an instance you say? Well in our class we have a set of instance methods and instance variables which cater to performing tasks. In our case the task is calculating a tip based on how good the service you received was. By creating an instance (done outside the class) you are able to access the use of the class’ code for your respective meal’s bill. Sounds cool right, but how that works?<br>
+              In our class you see the ‘initialize’ method. This method is run on every new instance created. In our case it carries an argument ‘cost’, thus every time you create a new instance you have to include a value/cost. For example dinner_bill = TipCalculator.new(45). So here we created a new instance and added a cost $45 for the tip to be calculated.<br>
+              As you read further down our  above you will notice the “@cost” variable. This is an instance variable which means it’s available to all the instance methods in the class and can change from object to object. In our case it will change every time you change the “cost” of your bill.<br>
+              Next we can look at the other methods in our code. They are called instance methods and they are available to all created instances of the class. Thus if we create an instance “brunch_bill = TipCalculator.new(12)” we can use the method “great_service” on this instance. For example:
+              “brunch_bill.great_service”. Calling this method on the instance will result on the tip calculation based on the “great_service” method code block.<br>
+
+              As you can see the class provides a way to organize code that can then be used on instances of that class. Thus allowing us to use that set of code on various instances we create for the benefit of calculating tips on different bills. This is just a basic example of the power of classes and it can surely be used for more complicated processes but this should get your feet wet and even wet your appetite so maybe now you are hungry for more on Ruby’s classes. So get out there and get exploring.</p>
+          </article>
+      </section>
+
+
+  </body>
+
+  <footer>
+      <p>Established September 11th, 2014</p>
+  </footer>
+</html>
