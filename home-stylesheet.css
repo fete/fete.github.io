@@ -54,43 +54,50 @@ body{
 }
 
 
+
 header{
   color:white;
   background:#6D6D70;
   font-size:3em;
   width:90%;
-  margin-left:2%;
-  margin-top:1%;
+  margin-left:1%;
+  margin-top:-11%;
   line-height:200%;
-
+  position: fixed;
 }
+
 
 #nav{
   background: #FFFFFF;
   font-size:1.5em;
   width:15%;
   line-height:190%;
-  margin-top:2%;
+  margin-top:10%;
   margin-left:2%;
   float:left;
   position:fixed;
-
 }
+
 
 #nav ul li{
    display:block;
    border-bottom:2px solid black;
    margin-left:7%;
-
 }
+
 
 #nav ul li a:hover{
   color:red;
-}
+} /* does not work*/
+
 
 #nav ul li a:link{
 color:black;
+}
 
+
+#nav a:visited{
+  color: rgb(144, 145, 150);
 }
 
 
@@ -98,15 +105,32 @@ a:link{
 text-decoration: none;
 }
 
+
 article a:hover{
-  color:#FFFFFF;
+  color:red;
 }
+
+
+article a:visited{
+  color:rgb(144, 145, 150);
+}
+
+
+article a:link{
+  color:black;
+}
+
 
 #social{
   margin-left:5%;
-  margin-top:4%;
   width:5%;
+  float: left;
+  position: fixed;
+}
 
+
+#social img{
+  width: 50%
 }
 
 
@@ -115,25 +139,28 @@ img{
   height:auto;
 }
 
+
 section{
   background:#FFFFFF;
   width:60%;
-  margin-top:3%;
-  margin-left:20%;
+  margin-top:12%;
+  margin-left:22%;
   line-height:300%;
   text-align:center;
 }
 
+
 article h3{
   font-size:2em;
 }
+
+
 article p{
   width:100%;
   background-color:red;
   text-align:left;
-
-
 }
+
 
 footer{
   background:#6D6D70;
@@ -142,6 +169,7 @@ footer{
   margin-top:20%;
   line-height:200%;
 }
+
 
 @media screen and (max-width:525px){
   #nav{
