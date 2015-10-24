@@ -1,3 +1,10 @@
 html, body {
 	margin: 0;
 }
+
+    /*font-family: 'Helvetica-Neue'; title font*/
+        /*font-family: sans serif; blog font*/
+
+h2, h4 {
+	font-family: 'Helvetica-Neue';
+}
