@@ -13,15 +13,23 @@ p {
 	font-family: sans-serif;
 }
 
+
+
 .container {
 	max-width: 940px;
     margin: 0 auto;
 }
 
-/*Main*/
+/* Main */
 .main {
-	background: url(images/background.jpg) no-repeat center center;
-	background-size: cover;
-	height: 40em;
+	text-align: center;
+    background: url(images/background.jpg) no-repeat center center;
+    background-size: cover;
+    height: 40em;
 
+}
+
+.main .container {
+    position: relative;
+    top: 10em;
 }
