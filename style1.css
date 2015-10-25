@@ -12,3 +12,14 @@ h1, h3 {
 p {
 	font-family: sans-serif;
 }
+
+.container {
+	max-width: 940px;
+    margin: 0 auto;
+}
+
+/*Main*/
+.main {
+	background-color: grey;
+
+}
