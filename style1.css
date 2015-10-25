@@ -5,7 +5,10 @@ html, body {
     /*font-family: 'Helvetica-Neue'; title font*/
         /*font-family: sans serif; blog font*/
 
-h2, h4 {
-	font-family: cursive;
+h1, h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+p {
+	font-family: sans-serif;
+}
