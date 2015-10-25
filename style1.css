@@ -20,6 +20,8 @@ p {
 
 /*Main*/
 .main {
-	background-color: grey;
+	background: url(images/background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 40em;
 
 }
