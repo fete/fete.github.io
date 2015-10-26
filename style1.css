@@ -98,7 +98,11 @@ p {
 footer {
     background-color: rgba(42, 37, 38, 1);
     color: white;
+    height: 4em;
+}
 
+footer p {
+    padding: 1em 0 0 4em;
 }
 
 
