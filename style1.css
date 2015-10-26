@@ -43,6 +43,10 @@ p {
     top: 10em;
 }
 
+.main .container ul {
+    list-style-type: none;
+
+}
 
 /*Blog feature*/
 .blog-feature {
