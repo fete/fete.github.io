@@ -46,23 +46,25 @@ p {
 }
 
 .blog-feature .container h1 {
-    text-align: center;
+    border: 2px solid red;
     font-size: 4em;
+    text-align: center;
 }
 
 .blog-feature img {
+    border: 2px solid red;
     height: 6em;
     width: 6em;
 }
 
 .blog-feature .container > div {
     border: 2px solid red;
-    height: 20em;
+    height: 12em;
     width: 25em;
 }
 
 .blog-feature .col {
-    /*display: inline;*/
+    float: left;
 }
 
 
