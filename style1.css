@@ -38,13 +38,9 @@ p {
     top: 10em;
 }
 
-/*.blog-feature {
-    background-color: rgba(0, 109, 255, 1);
-}*/
 
- .blog-feature {
+.blog-feature {
     background-color: rgba(0, 109, 255, 1);
-    text-align: center;
     padding: 3em 0 5em; /*this solves space between sections*/
 }
 
