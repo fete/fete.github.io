@@ -10,6 +10,10 @@ h1, h3 {
     font-size: 4em;
 }
 
+h3 {
+    text-align: center;
+}
+
 p {
 	font-family: sans-serif;
 }
@@ -80,6 +84,7 @@ p {
     -webkit-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
     -moz-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
     box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
+    padding:0 1em 1em 1em;
 }
 
 .blog2 .container {
@@ -87,6 +92,7 @@ p {
     -webkit-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
     -moz-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
     box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
+    padding:0 1em 1em 1em;
 }
 
 
