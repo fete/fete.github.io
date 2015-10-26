@@ -42,6 +42,27 @@ p {
 .blog-feature {
     background-color: rgba(0, 109, 255, 1);
     padding: 3em 0 5em; /*this solves space between sections*/
+    color:white;
+}
+
+.blog-feature .container h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.blog-feature img {
+    height: 6em;
+    width: 6em;
+}
+
+.blog-feature .container > div {
+    border: 2px solid red;
+    height: 20em;
+    width: 25em;
+}
+
+.blog-feature .col {
+    /*display: inline;*/
 }
 
 
