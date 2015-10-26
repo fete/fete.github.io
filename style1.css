@@ -40,10 +40,11 @@ p {
 }
 
 
+/*Blog feature*/
 .blog-feature {
     background-color: rgba(0, 109, 255, 1);
     color:white;
-    height: 22em;
+    height: 18em;
     padding: 3em 0 5em; /*this solves space between sections*/
 
 }
@@ -51,6 +52,7 @@ p {
 
 .blog-feature .container h1 {
     padding-left: 1em;
+    margin-top: 0;
 }
 
 .blog-feature img {
@@ -59,7 +61,7 @@ p {
     margin-left: 3em;
 }
 
-.blog-feature .container > div {
+.blog-feature .container > div {/* div with descrp*/
     height: 8em;
     width: 35em;
 }
