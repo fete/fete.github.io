@@ -45,7 +45,11 @@ p {
 
 .main .container ul {
     list-style-type: none;
+}
 
+.main .container li {
+    display: inline-block;
+    margin-left: 1em;
 }
 
 /*Blog feature*/
