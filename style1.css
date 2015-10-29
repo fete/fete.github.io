@@ -6,8 +6,12 @@ html, body {
         /*font-family: sans serif; blog font*/
 
 h1, h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', cursive;
     font-size: 4em;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h3 {
@@ -15,7 +19,7 @@ h3 {
 }
 
 p {
-	font-family: sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 
 
@@ -26,32 +30,44 @@ p {
 
 }
 
+nav, ul {
+    list-style-type: none;
+    position: fixed;
+}
+
+nav, li {
+    margin-bottom:1em ;
+}
+
+nav, ul, li .email-icon {
+    width:26%;
+    height: 5.25em;
+}
+
 /* Main */
 .main {
-	text-align: center;
-    background: url(images/background.jpg) no-repeat center center;
+    text-align: center;
+    background: url(images/bkgrdfar.jpg) no-repeat center center;
     background-size: cover;
+     border: 1px solid rgba(255, 255, 255, 0.2);
     height: 40em;
 
 }
 
 
 .main .container {
-	background-color: rgba(255, 255, 255, 0.2);
-    position: relative;
-    top: 10em;
-    width: 40em;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
     padding:1em 0 1em 0;
-    color: rgba(234, 232, 237, 1);
+    position: relative;
+    top: 27em;
+    width: 60em;
+   
 }
 
-.main .container ul {
-    list-style-type: none;
-}
-
-.main .container li {
-    display: inline-block;
-    margin-left: 1em;
+.main .container img {
+    width: 9%;
+    height:4em;
 }
 
 /*Blog feature*/
