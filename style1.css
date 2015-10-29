@@ -47,7 +47,7 @@ nav, ul, li .email-icon {
 /* Main */
 .main {
     text-align: center;
-    background: url(images/bkgrdnear.jpg) no-repeat center center;
+    background: url(images/bkgrdfar.jpg) no-repeat center center;
     background-size: cover;
      border: 1px solid rgba(255, 255, 255, 0.2);
     height: 40em;
@@ -65,6 +65,10 @@ nav, ul, li .email-icon {
    
 }
 
+.main .container img {
+    width: 10%;
+    height:3.75em;
+}
 
 /*Blog feature*/
 .blog-feature {
