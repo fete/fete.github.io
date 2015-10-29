@@ -10,6 +10,10 @@ h1, h3 {
     font-size: 4em;
 }
 
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 h3 {
     text-align: center;
 }
@@ -37,21 +41,30 @@ p {
 
 
 .main .container {
-	background-color: rgba(255, 255, 255, 0.2);
-    position: relative;
-    top: 10em;
-    width: 40em;
-    padding:1em 0 1em 0;
+	/*background-color: rgba(255, 255, 255, 0.2);*/
     color: rgba(234, 232, 237, 1);
+    padding:0 0 1em 0;
+    position: relative;
+    top: 4em;
+    width: 40em;
+
+    border: 2px solid red;
 }
 
 .main .container ul {
     list-style-type: none;
+    position: fixed;
+
 }
 
 .main .container li {
     display: inline-block;
-    margin-left: 1em;
+    margin: 2px 0 0 1em;
+}
+
+.main .container  ul li .email-icon {
+    width:110%;
+    height: 5em;
 }
 
 /*Blog feature*/
