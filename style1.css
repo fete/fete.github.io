@@ -44,6 +44,9 @@ nav, ul, li .email-icon {
     height: 5.25em;
 }
 
+
+
+
 /* Main */
 .main {
     text-align: center;
@@ -60,14 +63,14 @@ nav, ul, li .email-icon {
     color: white;
     padding:1em 0 1em 0;
     position: relative;
-    top: 27em;
+    top: 25em;
     width: 60em;
    
 }
 
 .main .container img {
     width: 9%;
-    height:4em;
+    height:5em;
 }
 
 /*Blog feature*/
