@@ -39,11 +39,27 @@ nav, li {
     margin-bottom:1em ;
 }
 
+/*ul li img:hover {
+    background-color: red;
+}*/
+
 nav, ul, li .email-icon {
     width:26%;
     height: 5.25em;
 }
 
+
+/*hover*/
+li a img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+li a:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
 
 
 
