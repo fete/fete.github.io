@@ -53,8 +53,15 @@
       <a href="#">Dealing With Conflict</a>
       <a href="#">SQL Injection</a>
       <a href="#">Affirmations & Values</a>
+      <a href="#">Ruby Class Methods</a>
+      <a href="#">Cultural Stereotype Threat</a>
+      <a href="#">Ruby's A Class Act: Class Basics</a>
+      <a href="#">Pairing is Caring</a>
       <a href="#"></a>
       <a href="#"></a>
+
+
+
 
     </section>
   </section>
@@ -234,6 +241,97 @@
 <article class="blog B1">
 <section class="container">
   <header>
+    <h3>Ruby Class Methods</h3>
+    <p>10/05/14<br>By Clifton Thomas</p> 
+  </header>
+    <figure>
+    <figcaption></figcaption> 
+    </figure>
+    <p>After perusing the web for a solid definition and explanation on Class Methods  I came across class methods while reading the highly regarded text “The Well Grounded Rubyist” by David A. Black . I must say I’m getting fond of this text in making my Ruby notes and would like to share some of it’s take on Class Methods. Class methods are single methods which are defined on a class object. The idea of a class method is that you send a message to the object that’s the class rather than to one of the class’s instances. Let’s say I create a class called Tickets and wanted to create a class method of that class I’ll simply write:<br>
+
+              class Ticket
+                 def Ticket.most_expensive(*tickets)
+                    tickets.max_by(&:price)
+                 end
+              end<br>
+              “Ticket.most_expensive” represents the defined class method that we can access through the class object Ticket  but not through its instances. Individual instances of the class Ticket don’t have this method. We can also use the notation “self.most_expensive” for the class method, with self replacing the class’ name.<br>
+
+              Class methods enable the execution of certain operations pertaining to a class that can’t be performed by individual instances of that class. The “.new” method is an excellent example. “Ticket.new” is called because, until we’ve created an individual ticket (instance of Ticket class), we can’t send it any messages! The class therefore needs to make the instances therefore we define a method with the class Ticket. A class object (like Ticket ) has its own methods, its own state, and its own identity. It doesn’t share these things with instances of itself.</p>
+</section>
+</article>
+
+
+
+
+
+
+<article class="blog B2">
+<section class="container">
+  <header>
+    <h3>Cultural Stereotype Threat</h3>
+    <p>10/05/14<br>By Clifton Thomas</p> 
+  </header>
+    <figure>
+    <figcaption></figcaption> 
+    </figure>
+    <p>By: Clifton ---> Published: <br>Stereotype threat refers to being at risk of confirming, as self-characteristic, a negative stereotype about one's group. Who knew there was science for this stuff? I must say it made for interesting reading though. I have been on the end of a plethora of stereotypes. Considering I’m from a foreign country this was something I expected but I didn’t really expect the vast creativity of ignorant people when it came to looking at an individual and making up stereotypes. I’ve heard it all from nerd to jock to partier to failure and even terrorist. I guess the fact that it’s such an unusually wide spectrum of stereotypes I tend to just laugh it all off and just put it down to people just not being sensible. Maybe if there were just a few particular stereotypes I was labelled with I would be more self conscious about it and maybe even adapt to such standards but thankfully the haters or confused individuals (as I tend to call them) have not won any battles with me.<br>
+              I am someone who was made aware before entering a new culture how I’ll be perceived and why so. Thus I kind of had a head start on the whole thing and was understanding of peoples expectations. In college I wasn’t expected to be an athlete because I looked Indian to some folk and from what I gather from the critics, indians aren’t athletic. I wasn’t expected to be on the Student Government  board because I had an accent and some people thought that would hinder my ability to communicate. I won all my elections and became the first student to win 3 years running. When people realized I was from the Caribbean I was just expected to just be a party animal that drinks alcohol…well I am not a drinker but I do love a great party lol So I’ll give them that win lol.<br>
+              Outside of school I’ve had my fair share of moments encountering stereotypes also. On the subway people tend to not sit next to me and I’ve been called terrorist numerous times while minding my own business walking casually. This is not just something common everyday people will classify me as because my visits to the airport are always and adventure. I usually ignore people and just go about my day because it’s more funny that hurtful to me. I am not one to be angered by such folly as stereotypes. I will advise anyone to not be vexed by it but understand more as to why it exists within the person and try help them understand you cause I believe with understanding there’s knowledge and thus perspective can be gained. Bearing in mind though that not everyone is a willing listener just be yourself and know that you are an individual that can make your own path.<br>
+
+              In general I understand that not everyone has the knowledge to know about diversity in the world. I get it that in a world where things are very visual that we judge each other visually too and we make judgments based on visual keys. It’s how the mind works. Just like if you grow up seeing fire burning stuff you know when you see a fire that it’s dangerous. People though are supposed to be advanced enough though to know that individuals can’t be generalized into groups based on some or even the majority’s behavior. We are all individuals and have different life experiences and can choose our behaviors. I know some people follow the crowd and thus stereotypes can exist but as humans we should judge more with our mind and heart than with our eyes. Give people a chance to make there own mark of who they are and don’t make it for them. </p>
+</section>
+</article>
+
+
+
+<article class="blog B1">
+<section class="container">
+  <header>
+    <h3>Ruby's A Class Act: Class Basics</h3>
+    <p>09/28/14<br>By Clifton Thomas</p> 
+  </header>
+    <figure>
+    <figcaption></figcaption> 
+    </figure>
+    <p>An object oriented program like Ruby involves classes and objects. Classes are the backbone of object oriented programming and they define objects and say what objects are and what they can do. It's basically a blueprint from which instances are created. For instance, one can define a
+              Pets class with dogs, cats, fishes, etc as instances and you can then add characteristics (name, age) and behavior (sound, tricks) by defining variables, methods and more within the class. Below we have a TipCalculator class which calculates tips for your bill depending on the service you received.</p>
+              <img src="TipCalCode.png"/>
+              <p>
+              We first define the class using the 'class' keyword followed by the name (in CamelCase --> wiki this if it draws a blank) then you add your instance variables, methods etc in the 'body' then the class is ended by keyword 'end'.  For example:
+                class TipCalculator
+                  def some_method
+                  end
+                end
+              Now that we see how to initially define a class I can introduce you into how we can make an instance of the class. We do this using the syntax: “variable_name = ClassName.new”. In my code above we made the instance “dinner_bill = TipCalculator.new”. Why make an instance you say? Well in our class we have a set of instance methods and instance variables which cater to performing tasks. In our case the task is calculating a tip based on how good the service you received was. By creating an instance (done outside the class) you are able to access the use of the class’ code for your respective meal’s bill. Sounds cool right, but how that works?<br>
+              In our class you see the ‘initialize’ method. This method is run on every new instance created. In our case it carries an argument ‘cost’, thus every time you create a new instance you have to include a value/cost. For example dinner_bill = TipCalculator.new(45). So here we created a new instance and added a cost $45 for the tip to be calculated.<br>
+              As you read further down our  above you will notice the “@cost” variable. This is an instance variable which means it’s available to all the instance methods in the class and can change from object to object. In our case it will change every time you change the “cost” of your bill.<br>
+              Next we can look at the other methods in our code. They are called instance methods and they are available to all created instances of the class. Thus if we create an instance “brunch_bill = TipCalculator.new(12)” we can use the method “great_service” on this instance. For example:
+              “brunch_bill.great_service”. Calling this method on the instance will result on the tip calculation based on the “great_service” method code block.<br>
+
+              As you can see the class provides a way to organize code that can then be used on instances of that class. Thus allowing us to use that set of code on various instances we create for the benefit of calculating tips on different bills. This is just a basic example of the power of classes and it can surely be used for more complicated processes but this should get your feet wet and even wet your appetite so maybe now you are hungry for more on Ruby’s classes. So get out there and get exploring.</p>
+</section>
+</article>
+
+
+<article class="blog B2">
+<section class="container">
+  <header>
+    <h3>Pairing and Caring</h3>
+    <p>09/28/14<br>By Clifton Thomas</p> 
+  </header>
+    <figure>
+    <figcaption></figcaption> 
+    </figure>
+    <p>Pairing has been a breath of fresh air. I am a pretty social person but the fact that one has to actually work on a challenge made me feel a bit apprehensive at first. I guess I just didn’t want to pair on a challenge and be stuck on a problem or not be able to contribute enough to the challenge. So at first I tried to get my prep in be well versed in the material  then pair on a challenge. I was then thoroughly able to assist and contribute to the challenge. I felt good and was motivated to keep up the process. There was an instance though where I paired on a challenge I didn’t fully prepare for. I was nervous and even thought about canceling the appointment. I went into the session less energetic anticipating that I will be seen as incompetent by my pair and I felt that I was cheating the individual by being unprepared. It just so happened I was able to contribute and learned so much form my pair. This gave me new insight on the pairing process. It’s not about showing what you know or being the master of your craft.<br> There will be times in one’s career where you will go into a pairing session and you won’t have a full grasp of the material. It’s important to make sure and go in with a free spirit knowing that even if you don’t know everything to help at that point in time, you and your pair can work together to attain that common goal and thus you both learn more and gain a level of trust and camaraderie. To me that’s been the main take form these sessions. Meeting great people, working on challenges together with the knowledge you have and learning together.<br>
+              I was so excited to read my feedback just to see how my views were received. I got good reviews on the specific and kind aspects of my reviews but I was deemed to not be fully forthcoming with the actionable feedback. I smiled because I knew to myself it was true, and although I knew while I was writing my feedback that I should include the actionable aspects, I held back out of concern that I maybe too critical. After thinking about it though I realized I was just not only cheating myself out of honesty I was also cheating that person I paired and connected with. In this environment it’s all about making each other better and I can’t be selfish and short change my pair. From then on I made it my duty to point out all and any actionable traits my respective pairs should improve on or continue with. I have even seen a change in how my feedback is reviewed and it makes me feel fulfilled to know I held up my end of the bargain of making each other better.<br>
+              Yes I have officially drank the juice! Pairing and feedback works and helps those involved and after all isn’t that what working together should be all about; and who better than your fellow aspiring developers to help and grow with you. </p>
+</section>
+</article>
+
+
+<article class="blog B1">
+<section class="container">
+  <header>
     <h3></h3>
     <p><br>By Clifton Thomas</p> 
   </header>
@@ -245,7 +343,11 @@
 </article>
 
 
+
 <!-- to add -->
+
+ <article>
+
 
 
 
