@@ -39,12 +39,6 @@ nav, li {
     margin-bottom:1em ;
 }
 
-nav, ul, li .email-icon {
-    width:26%;
-    height: 5.25em;
-}
-
-
 /*hover effect*/
 li a img {
     -webkit-filter: grayscale(0) blur(0);
@@ -149,6 +143,9 @@ footer p {
     padding: 1em 0 0 4em;
 }
 
+@media (max-width:1160px) {
+
+}
 
 
 
