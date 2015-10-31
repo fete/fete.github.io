@@ -10,10 +10,6 @@ h1, h3 {
     font-size: 4em;
 }
 
-p {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
 h3 {
     text-align: center;
 }
@@ -75,11 +71,6 @@ li a:hover img {
     top: 25em;
     width: 50em;
    
-}
-
-.main .container img {
-    width: 9%;
-    height:5em;
 }
 
 /*Blog feature*/
@@ -168,11 +159,85 @@ footer p {
 }
 
 @media (max-width:912px) {
+    .blog-feature img {
+        height: 10em;
+        width: 10em;
+        margin-left: 3em;
+    }
+}
+
+@media (max-width:816px) {
     nav, ul {
-        margin-left: 7.5em;
+        margin-left: 6em;
+    }
+
+    .blog-feature img {
+        display: none;
+    }
+
+    .blog-feature .col {
+        float: none;
+    }
+
+    .main .container  {
+        top: 22em;
+        width: 30em;
+    }
+}
+
+
+@media (max-width:770px) {
+    nav, ul {
+        margin-left: 5em;
     }
 
 }
 
+@media (max-width:690px) {
+    nav, ul {
+        margin-left: 4em;
+    }
 
+}
+
+@media (max-width:620px) {
+    nav, ul {
+        margin-left: 2em;
+    }
+    
+    .blog-feature .container > div {/* div with descrp*/
+    height: 8em;
+    width: 25em;
+}
+
+}
+
+@media (max-width:525px) {
+    nav, ul {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:525px) {
+   h1, h3 {
+    font-size: 3em;
+   }
+
+   p {
+    font-size: 14px;
+   }
+
+}
+
+@media (max-width:480px) {
+    .main .container  {
+        width: 22em;
+    }
+
+    .blog-feature .container > div {
+        width: 22em;
+    }
+
+}
 
