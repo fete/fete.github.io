@@ -123,6 +123,11 @@ li a:hover img {
     background-color: rgba(0, 109, 255, 1);
 }
 
+.image {
+    width: 45em;
+    height: 30em;
+}
+
 
 footer {
     background-color: rgba(42, 37, 38, 1);
@@ -183,6 +188,11 @@ footer p {
         top: 22em;
         width: 30em;
     }
+
+    .image {
+    width: 35em;
+    height: 20em;
+}
 }
 
 
@@ -210,6 +220,11 @@ footer p {
     width: 25em;
 }
 
+.image {
+    width: 28em;
+    height: 18em;
+}
+
 }
 
 @media (max-width:525px) {
@@ -228,6 +243,11 @@ footer p {
     font-size: 14px;
    }
 
+    .image {
+      width: 20em;
+      height: 12em;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -239,5 +259,20 @@ footer p {
         width: 22em;
     }
 
+
+}
+
+@media (max-width:401px) {
+    .image {
+      width: 15em;
+      height: 8em;
+    }
+}
+
+@media (max-width:350px) {
+    .image {
+      width: 12em;
+      height: 8em;
+    }
 }
 
