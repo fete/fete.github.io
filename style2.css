@@ -2,10 +2,14 @@ html, body {
 	margin: 0;
 }
 
-p {
+p, h2{
 	font-family: 'Cantarell', sans-serif;
+	color: white;
 }
 
+.light_font p{
+	color: rgba(158,158,158 ,1);
+}
 
 .main .container{
     background-color: rgba(189,189,189 ,1);
@@ -13,3 +17,4 @@ p {
     height: 20em;
     text-align: center;
 }
+
