@@ -5,3 +5,11 @@ html, body {
 p {
 	font-family: 'Cantarell', sans-serif;
 }
+
+
+.main .container{
+    background-color: rgba(189,189,189 ,1);
+    background-size: cover;
+    height: 20em;
+    text-align: center;
+}
