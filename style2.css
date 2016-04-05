@@ -1,1 +1,7 @@
-style2.css
+html, body {
+	margin: 0;
+}
+
+p {
+	font-family: 'Cantarell', sans-serif;
+}
