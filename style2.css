@@ -9,7 +9,8 @@ p, h2, h5{
 
 
 .main_page {
-        background:black;height:750px;
+        background:black;
+        height:850px;
     }
 
 
@@ -91,5 +92,8 @@ box-shadow: 2px 10px 84px 35px rgba(0,0,0,0.75);
 	margin-top: 3em;
 }
 
-
+.popular .popular_div {
+	border-bottom: 1px solid rgba(66,66,66 ,1);
+	margin-top: 3em;
+}
 
