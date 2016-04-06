@@ -164,5 +164,10 @@ box-shadow: 2px 10px 84px 35px rgba(0,0,0,0.75);
 
 .about_interests {
 	background-color: rgba(189,189,189 ,1);
+	height: 8em;
+	padding-top: 1px;
 }
 
+.about_interests .container > p{
+	color: black;
+}
