@@ -28,12 +28,28 @@
 
               <section class="button">
                       <section class="container">
-                        <button class= "play" onclick="document.getElementById('my_tune').play()">PLAY COVER LETTER</button>
+
+                        <button class="play" type="button" onclick="aud_play_pause()">PLAY COVER LETTER</button>
+
                         <audio  id="my_tune">
                           <source src="Too Hard.mp3" type="audio/mpeg" preload="auto"/>
                           <source src="#.ogg" type="audio/ogg" preload="auto"/>
                           <p>Your user agent does not support the HTML5 Audio element.</p>
                         </audio>
+
+
+
+                          <script>
+                          function aud_play_pause() {
+                            var myAudio = document.getElementById("my_tune");
+                            if (myAudio.paused) {
+                              myAudio.play();
+                            } else {
+                              myAudio.pause();
+                            }
+                          }
+                          </script>
+
                       </section>
               </section>
 
@@ -43,10 +59,16 @@
     <section class="latest">
       <section class="container">
         <div class="release light_font"><h5>LATEST RELEASE</h5>
-          <audio controls>
-            <source src="Too Hard.mp3" type="audio/mpeg">
-            <source src="#.ogg" type="audio/ogg">
-          </audio>
+        <ul id="latest_rel_features">
+            <li><img class= "latest_pic" src="images/volvo spotify.jpg" alt="Spotify in Car image"></li>
+
+            <li><p id="latest_text">Cover letter with controls for your rewinding pleasure</p></li>
+
+            <li><audio controls>
+              <source src="Too Hard.mp3" type="audio/mpeg">
+              <source src="#.ogg" type="audio/ogg">
+            </audio></li>
+          </ul>
 
         </div>
       </section>
