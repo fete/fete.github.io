@@ -2,7 +2,7 @@ html, body {
 	margin: 0;
 }
 
-p, h2{
+p, h2, h5{
 	font-family: 'Cantarell', sans-serif;
 	color: white;
 }
@@ -22,7 +22,7 @@ p, h2{
 
 
 
-.light_font p{
+.light_font p, h5{
 	color: rgba(158,158,158 ,1);
 }
 
@@ -82,6 +82,13 @@ box-shadow: 2px 10px 84px 35px rgba(0,0,0,0.75);
 	padding:12px 0px 12px 0px;
 	width: 18em;
 
+}
+
+.latest .release {
+	border-top: 1px solid rgba(66,66,66 ,1);
+	border-bottom: 1px solid rgba(66,66,66 ,1);
+	height: 10em;
+	margin-top: 3em;
 }
 
 
