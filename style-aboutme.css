@@ -5,12 +5,14 @@ html, body {
     /*font-family: 'Helvetica-Neue'; title font*/
         /*font-family: sans serif; blog font*/
 
-h1, h3 {
+h1 {
     font-family: 'Raleway', cursive;
     font-size: 4em;
 }
 
 h3 {
+    font-family: 'Raleway', cursive;
+    font-size: 1em;
     text-align: center;
 }
 
