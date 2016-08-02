@@ -57,10 +57,11 @@ li a:hover img {
 /* Main */
 .main {
     text-align: center;
-    background: url(images/aboutme-bk.jpg) no-repeat center center;
+    background: url(images/background.jpg) no-repeat center center;
     background-size: cover;
      border: 1px solid rgba(255, 255, 255, 0.2);
     height: 40em;
+    image-orientation: from-image;
 
 }
 
