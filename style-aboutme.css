@@ -59,13 +59,13 @@ li a:hover img {
     text-align: center;
     background: url(images/background.jpg) no-repeat center center;
     background-size: cover;
-     border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     height: 40em;
 
 }
 
 .main .container h1 {
-    border: 2px solid red;
+   /* border: 2px solid red;*/
     margin-top:10px;
     color: white;
 }
@@ -79,12 +79,17 @@ li a:hover img {
     position: relative;
     text-align: left;
     width: 60em;
-    border-top: 1px solid red;
+    /*border-top: 1px solid red;*/
 
 }
 
 .main .container div, h3 {
     text-align: left;
+}
+
+.main .container h3 {
+    border-bottom: 2px solid white;
+    font-size: 2em;
 }
 
 .main .container #more-info {
