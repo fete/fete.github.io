@@ -91,11 +91,6 @@ li a:hover img {
     display: none;
 }
 
-/* unvisited link */
-a:link {
-    color: white;
-}
-
 
 a#link:visited, a#link:link {
     color: white;
