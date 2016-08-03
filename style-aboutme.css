@@ -87,6 +87,10 @@ li a:hover img {
     text-align: left;
 }
 
+.main .container #more-info {
+    display: none;
+}
+
 /*adjust names of the CSS to match HTML*/
 
 
