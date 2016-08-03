@@ -57,25 +57,54 @@ li a:hover img {
 /* Main */
 .main {
     text-align: center;
-    background: url(images/Aboutme-bk.JPG) no-repeat center center;
+    background: url(images/background.jpg) no-repeat center center;
     background-size: cover;
-     border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     height: 40em;
 
 }
 
+.main .container h1 {
+   /* border: 2px solid red;*/
+    margin-top:10px;
+    color: white;
+}
 
-/*.main .container {
+
+.main .container div {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    padding:1em 0 1em 0;
+    margin-top: 1em;
+    padding:1em;
     position: relative;
-    top: 25em;
-    width: 50em;
-   
-}*/
+    text-align: left;
+    width: 60em;
+    /*border-top: 1px solid red;*/
 
-/*adjust names of the CSS to match HTML*/
+}
+
+.main .container div, h3 {
+    text-align: left;
+}
+
+.main .container h3 {
+    border-bottom: 2px solid white;
+    font-size: 2em;
+}
+
+.main .container #more-info {
+    display: none;
+}
+
+
+a#link:visited, a#link:link {
+    color: white;
+    text-decoration: none;
+}
+
+a#link:hover, a#link:active {
+    text-decoration: underline;
+}
 
 
 /*Funfact feature*/
