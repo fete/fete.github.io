@@ -91,7 +91,20 @@ li a:hover img {
     display: none;
 }
 
-/*adjust names of the CSS to match HTML*/
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+
+a#link:visited, a#link:link {
+    color: white;
+    text-decoration: none;
+}
+
+a#link:hover, a#link:active {
+    text-decoration: underline;
+}
 
 
 /*Funfact feature*/
