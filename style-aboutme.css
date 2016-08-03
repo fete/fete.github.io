@@ -74,10 +74,17 @@ li a:hover img {
 .main .container div {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
+    margin-top: 1em;
     padding:1em;
     position: relative;
+    text-align: left;
     width: 60em;
+    border-top: 1px solid red;
 
+}
+
+.main .container div, h3 {
+    text-align: left;
 }
 
 /*adjust names of the CSS to match HTML*/
