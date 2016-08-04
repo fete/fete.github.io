@@ -106,13 +106,16 @@ li a:hover img {
 
 
 a#link:visited, a#link:link {
-    color: white;
     text-decoration: none;
 }
 
-a#link:hover, a#link:active {
-    text-decoration: underline;
+a#link h3:hover, a#link:active {
+    text-transform: uppercase;
+    color: rgba(231,76,60 ,1);
 }
+
+
+
 
 
 /*Funfact feature*/
