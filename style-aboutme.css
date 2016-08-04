@@ -117,7 +117,7 @@ a#link:hover, a#link:active {
 
 /*Funfact feature*/
 .funfact-feature {
-    background-color: rgba(0, 109, 255, 1);
+    background-color: rgba(231,76,60 ,1);
     color:white;
     height: 10em;
     padding: 3em 0 5em; /*this solves space between sections*/
@@ -148,7 +148,7 @@ a#link:hover, a#link:active {
 
 /*Snapshots of me*/
 .snapshots {
-    background-color: rgba(149,165,166 ,1);
+    background-color: rgba(52,73,94 ,1);
     color:white;
     height: 20em;
     padding: 3em 0 5em; /*this solves space between sections*/
