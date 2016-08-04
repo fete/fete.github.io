@@ -143,8 +143,8 @@ a#link:hover, a#link:active {
     font-size: 1.5em;
 }
 
-/*Picfact*/
-.picfact {
+/*Snapshots of me*/
+.snapshots {
     background-color: grey;
     color:white;
     height: 10em;
@@ -153,24 +153,24 @@ a#link:hover, a#link:active {
 }
 
 
-.picfact .container h1 {
+.snapshots .container h1 {
     padding-left: 1em;
     margin-top: 0;
 }
 
-.picfact .container {
+.snapshots .container {
   /*  border : 1px solid red;*/
     margin: 0 auto;
 }
 
-.picfact .container .fact {
+.snapshots .container .fact {
    /* border:1px solid red;*/
     height: 6em;
     margin: 0 auto;
     width: 50em;
 }
 
-.picfact .container p {
+.snapshots .container p {
     font-size: 1.5em;
 }
 
