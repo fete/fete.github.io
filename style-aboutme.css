@@ -180,6 +180,14 @@ a#link:hover, a#link:active {
 
 }
 
+.snapshots .container .col {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
 
 /*.clearfix {
     clear: both;
