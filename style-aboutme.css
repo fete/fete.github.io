@@ -159,14 +159,14 @@ a#link:hover, a#link:active {
 }*/
 
 .snapshots .container {
-    border : 1px solid green;
+    /*border : 1px solid green;*/
     margin: 0 auto;
 }
 
 
 
 .snapshots .container .descrip {
-    border:1px solid red;
+    /*border:1px solid red;*/
     font-size: 1.25em;
     margin-left: 1em;
     width: 25em;
