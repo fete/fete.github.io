@@ -143,6 +143,40 @@ a#link:hover, a#link:active {
     font-size: 1.5em;
 }
 
+/*Snapshots of me*/
+.snapshots {
+    background-color: rgba(149,165,166 ,1);
+    color:white;
+    height: 10em;
+    padding: 3em 0 5em; /*this solves space between sections*/
+
+}
+
+
+.snapshots .container h1 {
+    padding-left: 1em;
+    margin-top: 0;
+}
+
+.snapshots .container {
+  /*  border : 1px solid red;*/
+    margin: 0 auto;
+}
+
+.snapshots .container .fact {
+   /* border:1px solid red;*/
+    height: 6em;
+    margin: 0 auto;
+    width: 50em;
+}
+
+.snapshots .container p {
+    font-size: 1.5em;
+}
+
+
+
+
 /*.clearfix {
     clear: both;
 }
