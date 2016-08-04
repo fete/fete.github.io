@@ -62,7 +62,7 @@ li a:hover img {
 /* Main */
 .main {
     text-align: center;
-    background: url(images/background.jpg) no-repeat center center;
+    background: url(images/Dangerbk.JPG) no-repeat center center;
     background-size: cover;
     border: 1px solid rgba(255, 255, 255, 0.2);
     height: 52em;
@@ -75,11 +75,14 @@ li a:hover img {
     color: white;
 }
 
+.main .container div, h3 {
+    color: rgba(0, 0, 0, 0.6);
+}
 
 .main .container div {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(0,0 ,0 ,0.5);
+    /*margin-top: 1em;*/
     padding:1em;
     position: relative;
     text-align: left;
