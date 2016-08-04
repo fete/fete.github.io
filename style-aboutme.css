@@ -145,7 +145,7 @@ a#link:hover, a#link:active {
 
 /*Snapshots of me*/
 .snapshots {
-    background-color: grey;
+    background-color: rgba(149,165,166 ,1);
     color:white;
     height: 10em;
     padding: 3em 0 5em; /*this solves space between sections*/
