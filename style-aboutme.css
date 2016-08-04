@@ -145,7 +145,7 @@ a#link:hover, a#link:active {
 
 /*Picfact*/
 .picfact {
-    background-color: yellow;
+    background-color: grey;
     color:white;
     height: 10em;
     padding: 3em 0 5em; /*this solves space between sections*/
