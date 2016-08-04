@@ -143,6 +143,40 @@ a#link:hover, a#link:active {
     font-size: 1.5em;
 }
 
+/*Picfact*/
+.picfact {
+    background-color: yellow;
+    color:white;
+    height: 10em;
+    padding: 3em 0 5em; /*this solves space between sections*/
+
+}
+
+
+.picfact .container h1 {
+    padding-left: 1em;
+    margin-top: 0;
+}
+
+.picfact .container {
+  /*  border : 1px solid red;*/
+    margin: 0 auto;
+}
+
+.picfact .container .fact {
+   /* border:1px solid red;*/
+    height: 6em;
+    margin: 0 auto;
+    width: 50em;
+}
+
+.picfact .container p {
+    font-size: 1.5em;
+}
+
+
+
+
 /*.clearfix {
     clear: both;
 }
