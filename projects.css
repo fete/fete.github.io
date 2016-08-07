@@ -1,0 +1,283 @@
+html, body {
+	margin: 0;
+}
+
+    /*font-family: 'Helvetica-Neue'; title font*/
+        /*font-family: sans serif; blog font*/
+
+h1, h3 {
+    font-family: 'Raleway', cursive;
+    font-size: 4em;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+	font-family: 'Cantarell', sans-serif;
+}
+
+
+
+.container {
+	max-width: 58em;
+    margin: 0 auto;
+
+}
+
+nav, ul {
+    list-style-type: none;
+    position: fixed;
+}
+
+nav, li {
+    margin-bottom:1em ;
+}
+
+/*hover effect*/
+li a img {
+    -webkit-filter: grayscale(0) blur(0);
+    -moz-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+li a:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    -moz-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+
+
+/* Main */
+.main {
+    text-align: center;
+    background: url(images/bkgrdfar.JPG) no-repeat center center;
+    background-size: cover;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 40em;
+
+}
+
+
+.main .container {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding:1em 0 1em 0;
+    position: relative;
+    top: 25em;
+    width: 50em;
+   
+}
+
+/*Blog feature*/
+.blog-feature {
+    background-color: rgba(0, 109, 255, 1);
+    color:white;
+    height: 18em;
+    padding: 3em 0 5em; /*this solves space between sections*/
+
+}
+
+
+.blog-feature .container h1 {
+    padding-left: 1em;
+    margin-top: 0;
+}
+
+.blog-feature img {
+    height: 16em;
+    width: 16em;
+    margin-left: 3em;
+}
+
+.blog-feature .container > div {/* div with descrp*/
+    height: 8em;
+    width: 35em;
+}
+
+.blog-feature .col {
+   float: right;
+   margin-left: 3em;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.blog .container {
+    -webkit-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
+    box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
+    padding:0 1em 1em 1em;
+}
+
+.B1 .container {
+    background-color: rgba(255, 158, 0, 1);
+}
+
+.B2 .container{
+    background-color: rgba(0, 109, 255, 1);
+}
+
+.image {
+    width: 45em;
+    height: 30em;
+}
+
+
+footer {
+    background-color: rgba(42, 37, 38, 1);
+    color: white;
+    height: 6em;
+}
+
+footer p {
+    padding: 1em 0 0 4em;
+}
+
+footer a img {
+    width: 2em;
+    height: 2em;
+}
+
+@media (max-width:1140px) {
+    nav, ul, li {
+        display: inline;
+    }
+    nav, ul {
+        margin-left: 11em;
+    }
+
+}
+
+@media (max-width:1030px) {
+    nav, ul {
+        margin-left: 9em;
+    }
+
+}
+
+@media (max-width:1030px) {
+    nav, ul {
+        margin-left: 7.5em;
+    }
+
+}
+
+@media (max-width:912px) {
+    .blog-feature img {
+        height: 10em;
+        width: 10em;
+        margin-left: 3em;
+    }
+}
+
+@media (max-width:816px) {
+    nav, ul {
+        margin-left: 6em;
+    }
+
+    .blog-feature img {
+        display: none;
+    }
+
+    .blog-feature .col {
+        float: none;
+    }
+
+    .main .container  {
+        top: 22em;
+        width: 30em;
+    }
+
+    .image {
+    width: 35em;
+    height: 20em;
+}
+}
+
+
+@media (max-width:770px) {
+    nav, ul {
+        margin-left: 5em;
+    }
+
+}
+
+@media (max-width:690px) {
+    nav, ul {
+        margin-left: 4em;
+    }
+
+}
+
+@media (max-width:620px) {
+    nav, ul {
+        margin-left: 2em;
+    }
+    
+    .blog-feature .container > div {/* div with descrp*/
+    height: 8em;
+    width: 25em;
+}
+
+.image {
+    width: 28em;
+    height: 18em;
+}
+
+}
+
+@media (max-width:525px) {
+    nav, ul {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:525px) {
+   h1, h3 {
+    font-size: 3em;
+   }
+
+   p {
+    font-size: 14px;
+   }
+
+    .image {
+      width: 20em;
+      height: 12em;
+    }
+
+}
+
+@media (max-width:480px) {
+    .main .container  {
+        width: 22em;
+    }
+
+    .blog-feature .container > div {
+        width: 22em;
+    }
+
+
+}
+
+@media (max-width:401px) {
+    .image {
+      width: 15em;
+      height: 8em;
+    }
+}
+
+@media (max-width:350px) {
+    .image {
+      width: 12em;
+      height: 8em;
+    }
+}
+
