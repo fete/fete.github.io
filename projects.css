@@ -92,29 +92,21 @@ li a:hover img {
 
 
 .projects-feature .container h1 {
-    padding-left: 1em;
-    margin-top: 0;
+    text-align: center;
 }
 
-/*.projects-feature img {
-    height: 16em;
-    width: 16em;
-    margin-left: 3em;
-}*/
-
-.projects-feature .container > div {/* div with descrp*/
-    height: 8em;
-    width: 35em;
-}
+/* div with descrp*/
 
 .projects-feature .col {
-   float: right;
-   margin-left: 3em;
+    margin: 0 auto;
+    height: 8em;
+    width: 35em;
+
 }
 
-.clearfix {
+/*.clearfix {
     clear: both;
-}
+}*/
 
 .blog .container {
     -webkit-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
