@@ -81,8 +81,8 @@ li a:hover img {
 
 
 
-/*Blog feature*/
-.blog-feature {
+/*Project feature*/
+.projects-feature {
     background-color: rgba(0, 109, 255, 1);
     color:white;
     height: 18em;
@@ -91,23 +91,23 @@ li a:hover img {
 }
 
 
-.blog-feature .container h1 {
+.projects-feature .container h1 {
     padding-left: 1em;
     margin-top: 0;
 }
 
-.blog-feature img {
+/*.projects-feature img {
     height: 16em;
     width: 16em;
     margin-left: 3em;
-}
+}*/
 
-.blog-feature .container > div {/* div with descrp*/
+.projects-feature .container > div {/* div with descrp*/
     height: 8em;
     width: 35em;
 }
 
-.blog-feature .col {
+.projects-feature .col {
    float: right;
    margin-left: 3em;
 }
