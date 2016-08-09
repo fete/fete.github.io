@@ -53,28 +53,23 @@ li a:hover img {
 
 
 /* Projects Main */
-/*.projects-main {
-    text-align: center;
-    background: url(images/atwork.jpg) no-repeat center center;
-    background-size: cover;
-     border: 1px solid rgba(255, 255, 255, 0.2);
-    height: 40em;
-
-}
-*/
-
 .projects-main .container {
     background-color: rgba(255, 255, 255, 0.2);
-    color: white;
     padding:1em 0 1em 0;
     top: 25em;
-    width: 50em;
-   
+    width: 30em;
+}
+
+Add class and separated para into new css block
+.projects-main .container #quotes {
+    color: white;
+    /*font-family: cursive;*/
+    font-size: 2em;
+
 }
 
 .projects-main {
   background: rgba(0, 0, 0, 0.7); /* If our image is bright, we can tone it down with this darker overlay */
- /* color: white;*/
   padding: 20rem;
   position: relative;
   text-align: center;
