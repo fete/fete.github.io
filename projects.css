@@ -119,6 +119,7 @@ li a:hover img {
     padding:0 1em 1em 1em;*/
     border: 2px solid red;
     margin: 0 auto;
+    text-align: center;
 }
 
 .projects .container h2 {
