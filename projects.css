@@ -122,11 +122,13 @@ li a:hover img {
 }
 
 .projects .container h2 {
+    padding-top: 1em;
+    border-top: 2px solid rgba(46, 44, 44, 0.2);
     font-family: 'Raleway', cursive;
     font-size: 2em;
     text-align: center;
     margin-top: 3em;
-    
+
 }
 
 .B2 .container{
