@@ -83,8 +83,8 @@ li a:hover img {
 
 /*Project feature*/
 .projects-feature {
-    background-color: rgba(0, 109, 255, 1);
-    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.7);
     height: 18em;
     padding: 3em 0 5em; /*this solves space between sections*/
 
@@ -92,44 +92,53 @@ li a:hover img {
 
 
 .projects-feature .container h1 {
-    padding-left: 1em;
-    margin-top: 0;
+    text-align: center;
+    color: white;
 }
 
-/*.projects-feature img {
-    height: 16em;
-    width: 16em;
-    margin-left: 3em;
-}*/
-
-.projects-feature .container > div {/* div with descrp*/
-    height: 8em;
-    width: 35em;
-}
+/* div with descrp*/
 
 .projects-feature .col {
-   float: right;
-   margin-left: 3em;
+    margin: 0 auto;
+    height: 8em;
+    width: 35em;
+
 }
 
-.clearfix {
+/*.clearfix {
     clear: both;
-}
+}*/
 
-.blog .container {
-    -webkit-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
+
+/*Projects section*/
+
+.projects .container {
+    /*-webkit-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
     -moz-box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
     box-shadow: 0px 4px 12px 3px rgba(0,0,0,0.72);
-    padding:0 1em 1em 1em;
+    padding:0 1em 1em 1em;*/
+    border: 2px solid red;
+    color: rgba(46, 44, 44, 0.7);
+    margin: 0 auto;
+    text-align: center;
+
 }
 
-.B1 .container {
-    background-color: rgba(255, 158, 0, 1);
+.projects .container h2 {
+    color: black;
+    border-top: 2px solid rgba(46, 44, 44, 0.2);
+    font-family: 'Raleway', cursive;
+    font-size: 2em;
+    padding-top: 1em;
+    text-align: center;
+    margin-top: 3em;
+
 }
 
 .B2 .container{
     background-color: rgba(0, 109, 255, 1);
 }
+
 
 .image {
     width: 45em;
