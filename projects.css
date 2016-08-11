@@ -147,8 +147,9 @@ li a:hover img {
 
 
 .projects .image {
-    width: 45em;
     height: 30em;
+    margin:0 auto;
+     width: 45em;
 }
 
 
