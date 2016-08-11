@@ -135,9 +135,13 @@ li a:hover img {
 
 }
 
-.B2 .container{
-    background-color: rgba(0, 109, 255, 1);
+.projects .container #description {
+    
 }
+
+/*.B2 .container{
+    background-color: rgba(0, 109, 255, 1);
+}*/
 
 
 .image {
