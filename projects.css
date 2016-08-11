@@ -135,7 +135,7 @@ li a:hover img {
 
 }
 
-.projects .container #description {
+.projects .container .description {
     margin:0 auto;
     width: 45em;
 
