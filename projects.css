@@ -137,6 +137,7 @@ li a:hover img {
 
 .projects .container #description {
     border:2px solid green;
+    width: 45em;
 }
 
 /*.B2 .container{
