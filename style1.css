@@ -120,14 +120,17 @@ p {
   text-align: center;
   font-size: 17px;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent;
+  /*border-bottom: 2px solid red;*/
   -webkit-transition: linear 0.5s all;
   transition: linear 0.5s all;
   font-weight: 500;
   padding: 5px 0;
+
+  border:2px solid red;
+  width: 4em;
 }
 
-.toggle-menu li a span { text-transform: lowercase; }
+/*.toggle-menu li a span { text-transform: lowercase; }*/
 
 .toggle-menu li a:hover {
   color: white;
