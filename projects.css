@@ -66,7 +66,7 @@ li a:hover img {
   z-index: 99;
   -webkit-transition: linear 0.5s all;
   transition: linear 0.5s all;
-  margin-top: -15em;
+  margin-top: -5em;
 }
 
 .navicon:before, .navicon:after {
@@ -129,7 +129,7 @@ li a:hover img {
   -ms-transform: translateY(-200%);
   transform: translateY(-200%);
 
-border:2px solid red;
+/*border:2px solid red;*/
 
 }
 
@@ -192,9 +192,10 @@ color: rgba(0, 0, 0, 0.4);
 
 }
 
+
 .projects-main {
   background: rgba(0, 0, 0, 0.7); /* If our image is bright, we can tone it down with this darker overlay */
-  padding: 20rem;
+  padding: 12em;
   position: relative;
   text-align: center;
 }
