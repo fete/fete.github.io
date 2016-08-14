@@ -66,7 +66,7 @@ li a:hover img {
   z-index: 99;
   -webkit-transition: linear 0.5s all;
   transition: linear 0.5s all;
-  margin-top: -12em;
+  margin-top: -5em;
 }
 
 .navicon:before, .navicon:after {
@@ -171,8 +171,8 @@ color: rgba(0, 0, 0, 0.4);
 .toggle-menu li a span { text-transform: lowercase; }
 
 .toggle-menu li a:hover {
-  color: rgba(0, 109, 255, 1);
-  border-bottom: 2px solid rgba(0, 109, 255, 1);
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
   -webkit-transition: linear 0.5s all;
   transition: linear 0.5s all;
   -webkit-transform: scale(1.15);
@@ -192,9 +192,10 @@ color: rgba(0, 0, 0, 0.4);
 
 }
 
+
 .projects-main {
   background: rgba(0, 0, 0, 0.7); /* If our image is bright, we can tone it down with this darker overlay */
-  padding: 20rem;
+  padding: 12em;
   position: relative;
   text-align: center;
 }
