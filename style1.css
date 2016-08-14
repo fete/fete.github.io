@@ -199,7 +199,7 @@ li a:hover img {
     color: white;
     padding:1em 0 1em 0;
     position: relative;
-    top: 25em;
+    /*top: 5em;*/
     width: 50em;
    
 }
