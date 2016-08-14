@@ -171,8 +171,8 @@ color: rgba(0, 0, 0, 0.4);
 .toggle-menu li a span { text-transform: lowercase; }
 
 .toggle-menu li a:hover {
-  color: rgba(0, 109, 255, 1);
-  border-bottom: 2px solid rgba(0, 109, 255, 1);
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
   -webkit-transition: linear 0.5s all;
   transition: linear 0.5s all;
   -webkit-transform: scale(1.15);
