@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="projects.css"/>
     <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>Clifton's Profile</title>
 
   </head>
@@ -26,6 +27,20 @@
 
   <section class="projects-main">
     <section class="container">
+
+
+<!-- jQuery Menu -->
+
+    <a href="#" class="navicon"></a>
+<div class="toggle">
+  <ul class="toggle-menu">
+    <li><a href="index.html">Home/Blog</a></li>
+    <li><a href="about-me.html">About Me</a></li>
+    <li><a href="projects.html">Projects</a></li>
+  </ul>
+</div>
+
+<!-- ******************* -->
       <div>
         <p id="quotes">"It's not Work if you Love it."</br>
         "Make Beautiful and Meaningful things."</br>
@@ -170,6 +185,32 @@
 </section>
 </article>
 
+
+<!-- jQuery for the menu -->
+
+
+<script>
+$('.navicon').on('click', function (e) {
+  e.preventDefault();
+  $(this).toggleClass('navicon--active');
+  $('.toggle').toggleClass('toggle--active');
+});
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- **************************** -->
 
 
   </body>
