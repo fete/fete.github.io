@@ -69,6 +69,13 @@ li a:hover img {
 
 }
 
+.main .home-button {
+    width: 3em;
+    height: 3em;
+    margin:0 auto;
+}
+
+
 .main .container h1 {
    /* border: 2px solid red;*/
     margin-top:10px;
