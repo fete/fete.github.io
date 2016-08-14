@@ -58,7 +58,7 @@ li a:hover img {
 .navicon {
   width: 100%;
   background: transparent;
-  margin: 80px auto 40px;
+  margin: 50px auto 40px;
   position: relative;
   height: 30px;
   width: 50px;
@@ -66,6 +66,7 @@ li a:hover img {
   z-index: 99;
   -webkit-transition: linear 0.5s all;
   transition: linear 0.5s all;
+  margin-top: -12em;
 }
 
 .navicon:before, .navicon:after {
