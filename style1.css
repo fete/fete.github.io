@@ -202,7 +202,7 @@ li a:hover img {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
     padding:1em;
-    position: relative;
+    /*position: relative;*/
     width: 50em;
     bottom: 3em;
 
