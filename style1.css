@@ -157,12 +157,14 @@ color: rgba(0, 0, 0, 0.4);
 }
 
 nav, ul {
-    list-style-type: none;
-    position: fixed;
+  text-align: center;
+    /*list-style-type: none;
+    position: fixed;*/
 }
 
 nav, li {
-    margin-bottom:1em ;
+  display: inline-block;
+  /*  margin-bottom:1em ;*/
 }
 
 /*hover effect*/
