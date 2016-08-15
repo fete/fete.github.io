@@ -33,14 +33,14 @@ p {
 
 }
 
-.menu {
+nav, ul {
     list-style-type: none;
     position: fixed;
 }
 
-/*nav, li {
+nav, li {
     margin-bottom:1em ;
-}*/
+}
 
 /*hover effect*/
 /*li a img {
