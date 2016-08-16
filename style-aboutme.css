@@ -147,14 +147,14 @@ a#link h3:hover, a#link:active {
 
 }
 
-
-.funfact-feature .container h1 {
+/*
+.funfact-feature .container h2 {
     padding-left: 1em;
     margin-top: 0;
-}
+}*/
 
 .funfact-feature .container {
-  /*  border : 1px solid red;*/
+    border : 2px solid green;
     margin: 0 auto;
 }
 
@@ -252,6 +252,16 @@ footer a img {
         width: 42em;
     }
 
+    /*Funfacts*/
+    .funfact-feature .container h2 {
+        font-size: 1.5em;
+    }
+
+    .funfact-feature .container p {
+        font-size: 1em;
+    }
+
+    /*SnapShots*/
 }
 
 @media (max-width:712px) {
