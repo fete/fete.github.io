@@ -78,9 +78,9 @@ p {
 
 
 
-.main .container {
+/*.main .container {
     border:2px solid green;
-}
+}*/
 
 .main .container .menu {
     display: none;
@@ -102,7 +102,7 @@ p {
 .main .container div {
     background-color: rgba(255, 255, 255, 0.7);
     color: rgba(0,0 ,0 ,0.5);
-    /*margin-top: 1em;
+    margin-top: 1em;
     padding:1em;
     position: relative;
     width: 50em;
@@ -271,6 +271,54 @@ footer a img {
 
     .main .container div {
         width: 30em;
+    }
+
+}
+
+
+@media (max-width:550px) {
+    .main {
+        height: 72em;
+    }
+
+     .main .container h1 {
+        font-size: 2.25em;
+    }
+
+    .main .container div {
+        width: 25em;
+    }
+
+    .main .container h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:445px) {
+    .main {
+        height: 82em;
+    }
+
+     .main .container h1 {
+        font-size: 2.25em;
+    }
+
+    .main .container div {
+        width: 20em;
+    }
+}
+
+@media (max-width:400px) {
+    .main {
+        height: 110em;
+    }
+
+     .main .container h1 {
+        font-size: 2em;
+    }
+
+    .main .container div {
+        width: 15em;
     }
 }
 
