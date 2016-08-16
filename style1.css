@@ -159,6 +159,7 @@ color: rgba(0, 0, 0, 0.4);
 
 nav, ul {
   text-align: center;
+  margin-left: -1em;
     /*list-style-type: none;
     position: fixed;*/
 }
@@ -367,13 +368,19 @@ footer a img {
 
 @media (max-width:480px) {
     .main .container  {
-        width: 22em;
-        height: 11em;
+        width: 16em;
+        height: 8em;
     }
 
     .blog-feature .container > div {
         width: 22em;
     }
+  
+
+  .social {
+    width: 3em;
+    height: 3em;
+  }
 
 
 }
@@ -381,7 +388,7 @@ footer a img {
 @media (max-width:401px) {
     .image {
       width: 15em;
-      height: 8em;
+      height: 9em;
     }
 
     .blog-feature .container > div {
@@ -394,6 +401,11 @@ footer a img {
     .main .container #profile-blurb-shorter {
       display: unset;
     }
+
+  .social {
+    width: 3em;
+    height: 3em;
+  }
 
 }
 
