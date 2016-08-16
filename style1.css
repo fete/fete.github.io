@@ -364,6 +364,7 @@ footer a img {
 @media (max-width:480px) {
     .main .container  {
         width: 22em;
+        height: 11em;
     }
 
     .blog-feature .container > div {
@@ -378,6 +379,11 @@ footer a img {
       width: 15em;
       height: 8em;
     }
+
+    .blog-feature .container > div {
+        width: 18em;
+    }
+
 }
 
 @media (max-width:350px) {
@@ -385,5 +391,10 @@ footer a img {
       width: 12em;
       height: 8em;
     }
+
+    .blog-feature .container > div {
+        width: 16em;
+    }
+    
 }
 
