@@ -159,7 +159,7 @@ a#link h3:hover, a#link:active {
 }
 
 .funfact-feature .container .fact {
-   /* border:1px solid red;*/
+    border:1px solid green;
     height: 6em;
     margin: 0 auto;
     width: 50em;
@@ -253,6 +253,8 @@ footer a img {
     }
 
     /*Funfacts*/
+.funfact-feature .container
+
     .funfact-feature .container h2 {
         font-size: 1.5em;
     }
@@ -262,6 +264,23 @@ footer a img {
     }
 
     /*SnapShots*/
+    .snapshots .container h2{
+        font-size: 1.5em;
+    }
+
+    .snapshots .container .descrip {
+      border:2px solid red;
+      font-size: 1em;
+   /* margin-left: 1em;
+        width: 25em;*/
+    }
+
+    .snapshots .container img {
+      /*border:8px solid white;
+      border-bottom: 20px solid white;
+      height: 17em;
+      width: 15em;*/
+    }
 }
 
 @media (max-width:712px) {
