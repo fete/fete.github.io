@@ -212,6 +212,10 @@ li a:hover img {
   display: none;
 }
 
+#profile-blurb-shorter {
+  display: none;
+  }
+
 
 
 /*Blog feature*/
@@ -382,6 +386,13 @@ footer a img {
 
     .blog-feature .container > div {
         width: 18em;
+    }
+
+ .main .container #profile-blurb-short {
+      display: none;
+    }
+    .main .container #profile-blurb-shorter {
+      display: unset;
     }
 
 }
