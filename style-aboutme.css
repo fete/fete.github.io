@@ -324,6 +324,14 @@ footer a img {
     .main .container h3 {
         font-size: 1.5em;
     }
+
+     .funfact-feature .container .fact {
+        width: 22em;
+    }
+
+    .snapshots .container .descrip {
+        width: 12em;
+    }
 }
 
 @media (max-width:445px) {
