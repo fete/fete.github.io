@@ -254,6 +254,22 @@ footer a img {
 
 }
 
+@media (max-width:712px) {
+    .main .container div {
+        width: 35em;
+    }
+}
+
+@media (max-width:638px) {
+    .main {
+        height: 68em;
+    }
+
+    .main .container div {
+        width: 30em;
+    }
+}
+
 
 
 
