@@ -234,12 +234,22 @@ footer a img {
 }
 
 @media (max-width:850px) {
+
+    .main .links {
+      width: 2.5em;
+      height: 2.5em;
+    }
+
     .main .menu li a {
         padding: 10px 10px;
     }
 
     .main .container h1 {
         font-size: 3em;
+    }
+
+    .main .container div {
+        width: 42em;
     }
 
 }
