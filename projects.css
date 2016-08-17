@@ -363,11 +363,47 @@ footer a img {
     width: 30em;
   }
 
-  .projects .prd3B {
+  .projects .prd3B {  /*App single sreen shots*/
     height: 18em;
     width: 10em;
   }
 
+
+}
+
+
+@media (max-width: 525px) {
+  .projects-feature .container h1 {
+    font-size: 2em;
+  }
+
+  .projects-feature .col {
+    width: 15em;
+  }
+
+
+  .projects .container .description {
+    width: 16em;
+  }
+
+  .projects .image {
+    height: 10em;
+    width: 22em;
+  }
+
+  .projects .prd2 {
+    height: 30em;
+    width: 20em;
+  }
+
+  .projects .prd3A {
+    height: 14em;
+  }
+
+  .projects .prd3B {  /*App single sreen shots*/
+    height: 18em;
+    width: 10em;
+  }
 
 }
 
