@@ -341,6 +341,7 @@ footer a img {
 
   .projects-feature .col {
     width: 20em;
+    text-align: center;
   }
 
   /*.projects .container h2 {
