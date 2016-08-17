@@ -311,13 +311,12 @@ footer a img {
     border:2px solid green;
 }
 
-/*.projects .image {
-    height: 30em;
-    margin:0 auto;
-     width: 45em;
+.projects .image {
+    height: 24em;
+    width: 38em;
 }
 
-.projects .prd2 {
+/*.projects .prd2 {
     height: 50em;
     margin:0 auto;
      width: 45em;
