@@ -353,20 +353,20 @@ footer a img {
     width: 25em;
   }
 
-  /*.projects .image {
-    height: 24em;
-    width: 38em;
+  .projects .image {
+    height: 15em;
+    width: 29em;
   }
 
   .projects .prd2 {
-    height: 44em;
-    width: 39em;
+    height: 36em;
+    width: 30em;
   }
 
   .projects .prd3B {
-    height: 26em;
-    width: 19em;
-  }*/
+    height: 18em;
+    width: 10em;
+  }
 
 
 }
