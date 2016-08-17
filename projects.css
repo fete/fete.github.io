@@ -330,4 +330,46 @@ footer a img {
 
 }
 
+@media (max-width: 660px) {
+  .projects-main .container #quotes {
+    font-size: 1.5em;
+  }
+
+    /*.projects-feature .container h1 {
+      font-size: 3em;
+    }
+
+  .projects-feature .col {
+    width: 30em;
+  }
+
+  .projects .container h2 {
+    font-size: 1.5em;
+
+  }
+
+  .projects .container .description {
+    width: 36em;
+
+    border:2px solid green;
+  }
+
+  .projects .image {
+    height: 24em;
+    width: 38em;
+  }
+
+  .projects .prd2 {
+    height: 44em;
+    width: 39em;
+  }
+
+  .projects .prd3B {
+    height: 26em;
+    width: 19em;
+  }*/
+
+
+}
+
 
