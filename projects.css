@@ -305,13 +305,14 @@ footer a img {
 
 }
 
-/*
 .projects .container .description {
-    margin:0 auto;
-    width: 45em;
+    width: 36em;
+    font-size: 1em;
+
+    border:2px solid green;
 }
 
-.projects .image {
+/*.projects .image {
     height: 30em;
     margin:0 auto;
      width: 45em;
@@ -327,8 +328,8 @@ footer a img {
     height: 32em;
     margin:0 auto;
      width: 25em;
-}
-*/
+}*/
+
 
 
 }
