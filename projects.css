@@ -344,12 +344,12 @@ footer a img {
     text-align: center;
   }
 
-  /*.projects .container h2 {
-    font-size: 1.5em;
+  .projects .container h2 {
+    font-size: 1.25em;
 
   }
 
-  .projects .container .description {
+  /*.projects .container .description {
     width: 36em;
 
     border:2px solid green;
