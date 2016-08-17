@@ -349,13 +349,11 @@ footer a img {
 
   }
 
-  /*.projects .container .description {
-    width: 36em;
-
-    border:2px solid green;
+  .projects .container .description {
+    width: 25em;
   }
 
-  .projects .image {
+  /*.projects .image {
     height: 24em;
     width: 38em;
   }
