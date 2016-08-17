@@ -360,6 +360,10 @@ footer a img {
     .main .container div {
         width: 15em;
     }
+
+     .funfact-feature .container .fact {
+        width: 20em;
+    }
 }
 
 
