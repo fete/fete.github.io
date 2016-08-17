@@ -160,6 +160,10 @@ color: rgba(0, 0, 0, 0.4);
 
 
 /* Projects Main */
+/*.projects-main #container-quotes {
+  border: 2px solid red;
+}*/
+
 .projects-main .container #quotes {
     color: white;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -322,6 +326,10 @@ footer a img {
 }
 
 @media (max-width: 660px) {
+  .toggle {
+    min-width: 220px;
+  }
+
   .projects-main .container #quotes {
     font-size: 1.25em;
   }
@@ -364,6 +372,10 @@ footer a img {
 
 
 @media (max-width: 525px) {
+ /* .projects-main #container-quotes {
+    width: 12em;
+  }*/
+
   .projects-main .container #quotes {
     font-size: 1em;
   }
@@ -401,7 +413,19 @@ footer a img {
 
 }
 
+@media (max-width: 450px) {
+  .projects-main #container-quotes {
+    width: 12em;
+    margin-left:-4em;
+}
+
 @media (max-width: 400px) {
+ .projects-main #container-quotes {
+    width: 10em;
+    margin-left:-5em;
+}
+
+
   .projects .image {
     height: 10em;
     width: 16em;
