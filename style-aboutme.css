@@ -147,19 +147,19 @@ a#link h3:hover, a#link:active {
 
 }
 
-
-.funfact-feature .container h1 {
+/*
+.funfact-feature .container h2 {
     padding-left: 1em;
     margin-top: 0;
-}
+}*/
 
 .funfact-feature .container {
-  /*  border : 1px solid red;*/
+    border : 2px solid green;
     margin: 0 auto;
 }
 
 .funfact-feature .container .fact {
-   /* border:1px solid red;*/
+    border:1px solid green;
     height: 6em;
     margin: 0 auto;
     width: 50em;
@@ -252,11 +252,43 @@ footer a img {
         width: 42em;
     }
 
+    /*Funfacts*/
+    .funfact-feature .container .fact {
+        width: 40em;
+    }
+
+    .funfact-feature .container h2 {
+        font-size: 1.5em;
+    }
+
+    .funfact-feature .container p {
+        font-size: 1em;
+    }
+
+
+    /*SnapShots*/
+    .snapshots .container h2{
+        font-size: 1.5em;
+    }
+
+    .snapshots .container .descrip {
+      border:2px solid red;
+      font-size: 1em;
+    }
+
 }
 
 @media (max-width:712px) {
     .main .container div {
         width: 35em;
+    }
+
+    .funfact-feature .container .fact {
+        width: 30em;
+    }
+
+    .snapshots .container .descrip {
+        width: 16em;
     }
 }
 
@@ -275,6 +307,7 @@ footer a img {
 
 }
 
+/*obouis*/
 
 @media (max-width:550px) {
     .main {
@@ -291,6 +324,14 @@ footer a img {
 
     .main .container h3 {
         font-size: 1.5em;
+    }
+
+     .funfact-feature .container .fact {
+        width: 22em;
+    }
+
+    .snapshots .container .descrip {
+        width: 12em;
     }
 }
 
