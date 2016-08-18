@@ -252,6 +252,18 @@ color: rgba(0, 0, 0, 0.4);
     width: 45em;
 }
 
+.projects .container .description a:link {
+  color: red;
+}
+
+.projects .container .description a:visited {
+  color: blue;
+}
+
+.projects .container .description a:hover {
+color: grey;
+}
+
 .projects .image {
     height: 30em;
     margin:0 auto;
