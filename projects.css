@@ -257,7 +257,7 @@ color: rgba(0, 0, 0, 0.4);
 }
 
 .projects .container .description a:visited {
-  color: blue;
+  color: red;
 }
 
 .projects .container .description a:hover {
