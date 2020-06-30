@@ -270,6 +270,11 @@ color: grey;
      width: 45em;
 }
 
+.projects .xyl {
+  height: auto;
+  width: 60%; 
+}
+
 .projects .prd2 {
     height: 50em;
     margin:0 auto;
@@ -332,7 +337,11 @@ footer a img {
     height: 26em;
     width: 19em;
   }
-
+  
+  .projects .xyl {
+    height: auto;
+    width: 60%; 
+  }
 
 
 }
@@ -381,6 +390,11 @@ footer a img {
   .projects .prd3B {  /*App single sreen shots*/
     height: 18em;
     width: 10em;
+  }
+
+  .projects .xyl {
+    height: auto;
+    width: 60%; 
   }
 
 
@@ -435,6 +449,11 @@ footer a img {
     width: 10em;
   }
 
+  .projects .xyl {
+    height: auto;
+    width: 60%; 
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -485,6 +504,11 @@ footer a img {
   .projects .prd3B {  /*App single sreen shots*/
     height: 18em;
     width: 10em;
+  }
+
+  .projects .xyl {
+    height: auto;
+    width: 60%; 
   }
 
 }
